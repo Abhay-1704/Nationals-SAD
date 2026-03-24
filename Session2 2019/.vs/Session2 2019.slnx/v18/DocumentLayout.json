@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|c:\\users\\abhay\\desktop\\nationals practice\\session2 2019\\session2 2019\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|solutionrelative:session2 2019\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|c:\\users\\abhay\\desktop\\nationals practice\\session2 2019\\session2 2019\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|solutionrelative:session2 2019\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|c:\\users\\abhay\\desktop\\nationals practice\\session2 2019\\session2 2019\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|solutionrelative:session2 2019\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|c:\\users\\abhay\\desktop\\nationals practice\\session2 2019\\session2 2019\\models\\emergencymaintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|solutionrelative:session2 2019\\models\\emergencymaintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|c:\\users\\abhay\\desktop\\nationals practice\\session2 2019\\session2 2019\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D1C650-55D9-132F-F666-E9DE8DA027B9}|Session2 2019\\Session2 2019.csproj|solutionrelative:session2 2019\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form2.cs",
+              "RelativeDocumentMoniker": "Session2 2019\\Form2.cs",
+              "ToolTip": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form2.cs [Design]",
+              "RelativeToolTip": "Session2 2019\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:34:49.485Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmergencyMaintenance.cs",
+              "DocumentMoniker": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Models\\EmergencyMaintenance.cs",
+              "RelativeDocumentMoniker": "Session2 2019\\Models\\EmergencyMaintenance.cs",
+              "ToolTip": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Models\\EmergencyMaintenance.cs",
+              "RelativeToolTip": "Session2 2019\\Models\\EmergencyMaintenance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:21:34.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form4.cs",
+              "RelativeDocumentMoniker": "Session2 2019\\Form4.cs",
+              "ToolTip": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form4.cs",
+              "RelativeToolTip": "Session2 2019\\Form4.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:44:26.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form2.cs",
+              "RelativeDocumentMoniker": "Session2 2019\\Form2.cs",
+              "ToolTip": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form2.cs",
+              "RelativeToolTip": "Session2 2019\\Form2.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwD8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:00:36.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form1.cs",
+              "RelativeDocumentMoniker": "Session2 2019\\Form1.cs",
+              "ToolTip": "C:\\Users\\Abhay\\Desktop\\Nationals Practice\\Session2 2019\\Session2 2019\\Form1.cs",
+              "RelativeToolTip": "Session2 2019\\Form1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:12:50.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
