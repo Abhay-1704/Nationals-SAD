@@ -1,0 +1,16 @@
+F:\APIWinforms\APIWinforms\APIWinforms\bin\Debug\net8.0-windows\APIWinforms.exe
+F:\APIWinforms\APIWinforms\APIWinforms\bin\Debug\net8.0-windows\APIWinforms.deps.json
+F:\APIWinforms\APIWinforms\APIWinforms\bin\Debug\net8.0-windows\APIWinforms.runtimeconfig.json
+F:\APIWinforms\APIWinforms\APIWinforms\bin\Debug\net8.0-windows\APIWinforms.dll
+F:\APIWinforms\APIWinforms\APIWinforms\bin\Debug\net8.0-windows\APIWinforms.pdb
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.Form1.resources
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.csproj.GenerateResource.cache
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.GeneratedMSBuildEditorConfig.editorconfig
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.AssemblyInfoInputs.cache
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.AssemblyInfo.cs
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.csproj.CoreCompileInputs.cache
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.dll
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\refint\APIWinforms.dll
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.pdb
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\APIWinforms.genruntimeconfig.cache
+F:\APIWinforms\APIWinforms\APIWinforms\obj\Debug\net8.0-windows\ref\APIWinforms.dll
