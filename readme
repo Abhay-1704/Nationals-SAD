@@ -1,0 +1,105 @@
+Deliverable 1 — ERD (Entity Relationship Diagram)
+What: Design a database schema with 10+ tables covering the full product lifecycle (warehouse → customer door).
+Key entities to include:
+
+Vendor, Product, Warehouse, Shelf/Location
+InventoryBatch, Order, OrderItem (junction table)
+Shipment, Delivery, CourierAssignment
+StatusHistory (audit log — this gets you top marks)
+
+How: Draw boxes for each entity, list their columns, and connect them with relationship lines (one-to-many, many-to-many).
+
+Deliverable 2 — Use Case Diagram
+What: Map which actors do which actions in the system.
+Actors: Vendor, Warehouse Staff, Courier, System Admin
+8+ use cases to cover:
+
+Vendor: Upload inventory, track stock, view orders
+Warehouse Staff: Receive shipment, reconcile inventory, assign dispatch
+Courier: View delivery list, update status, capture proof of delivery, log exception
+Admin: Manage users, generate reports
+
+
+Deliverable 3 — API Documentation
+What: Write technical specs for 3 endpoints of the Courier Mobile App.
+EndpointPurposeGET /v1/deliveriesGet prioritized delivery list for a driverPATCH /v1/deliveries/{id}/statusUpdate status (e.g., In Transit → Delivered)POST /v1/deliveries/{id}/exceptionsLog an exception (e.g., Customer Not Home)
+Each endpoint needs: HTTP method, URL, headers (Auth token), request body, and error codes (400, 401, 404).
+
+Deliverable 4 — Lo-Fi Wireframes (Vendor Dashboard)
+What: Sketch 2 screens for Elena (the vendor):
+
+Screen 1 — Inventory Health: Stock levels by category, low-stock alerts highlighted
+Screen 2 — Order Lifecycle: Count of orders in each stage (Pending / In Warehouse / Out for Delivery)
+
+
+Step-by-Step Execution Plan
+Given the 2-hour limit, here's how to pace yourself:
+TimeTask0–30 minERD — list all entities, define columns, draw relationships30–50 minUse Case Diagram — list actors + use cases, draw the diagram50–80 minAPI Documentation — write all 3 endpoints with full specs80–110 minWireframes — sketch both dashboard screens110–120 minReview — check for 3PL-specific logic, fill any gaps
+
+Key Things to Score High
+
+ERD: Add a StatusHistory or AuditLog table — this alone pushes you to the 9-10 band
+API: Always use /v1/ versioning and proper HTTP verbs (GET, PATCH, POST — not everything as POST)
+Wireframes: Show insights, not just raw data (e.g., "⚠ 3 items below reorder level" not just a number)
+Throughout: Keep the 3PL angle in mind — Elena doesn't own the warehouse, OmniStore does. That distinction should show in your design
+
+
+Would you like me to now build each deliverable for you one by one, starting with the ERD?yes18 MarLet's go deliverable by deliverable. Starting with the ERD!Here's the full ERD for OmniStore Logistics using mermaid.js with all 12 entities:
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+VvisualizeVvisualize show_widgetHere's a summary of the 12 entities and the design decisions that earn top marks:
+Core entities (product lifecycle): VENDOR → PRODUCT → INVENTORY_BATCH → SHELF_LOCATION → WAREHOUSE. This chain captures the 3PL-specific reality: Elena's products live on OmniStore's shelves, not hers.
+Order flow: CUSTOMER → ORDER_TABLE → ORDER_ITEM (junction table, many-to-many between orders and products) → SHIPMENT → COURIER.
+Audit & tracking: DELIVERY_EVENT captures every status update for a shipment (proof photo URL, exception type, notes), and STATUS_HISTORY is the audit log table — it tracks any entity's status change over time with old/new values and who made the change. This is the detail that pushes the schema into the 9–10 band.
+
+Ready to move to Deliverable 2 — Use Case Diagram?yes18 MarHere is the Use Case Diagram for OmniStore — all 4 actors with 10 use cases mapped out:
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+VvisualizeVvisualize show_widgetHere's a breakdown of every design decision made:
+4 actors, color-coded: Vendor (purple), Warehouse Staff (teal), Courier (coral), System Admin (amber). Color encoding makes it instantly readable — you can see at a glance which actor owns which use cases.
+12 use cases across the actors:
+
+Vendor (3): upload inventory shipment, track stock levels, view order lifecycle
+Warehouse Staff (3): receive and put-away stock, reconcile inventory, assign dispatch to courier
+Courier (4): view delivery list, update delivery status, capture proof of delivery, log delivery exception
+Admin (2): manage users and roles, generate billing reports
+System (1): auto-generate invoice — triggered via an «include» relationship, showing the automated billing that's core to OmniStore's revenue model
+
+Why this scores high: The «include» relationship for auto-invoicing is the 3PL-specific touch — it reflects the business model (OmniStore charges per pick-and-pack/delivery automatically). "Reconcile inventory" and "Log delivery exception" directly address the critical flows named in the brief.
+
+Ready for Deliverable 3 — API Documentation for the Courier Mobile App?yes18 MarHere is the full API Documentation for the Courier Mobile App — all 3 endpoints with complete technical specs:
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+VvisualizeVvisualize show_widgetHere's what makes this API documentation score in the 9–10 band:
+Correct HTTP verbs: GET for fetching the list (read-only, no body), PATCH for partial status update (not PUT — we're only changing one field), POST for creating a new exception record. This distinction alone is a major differentiator from basic CRUD designs.
+Versioning: All paths are under /v1/ via the base URL, making future API evolution backward-compatible.
+422 Unprocessable on Endpoint B — this is the professional touch. A 400 means "bad syntax"; a 422 means "syntactically valid but logically impossible" (e.g., trying to move a shipment from delivered back to in_transit). This shows state-machine awareness.
+Endpoint C enum values are explicit (customer_not_home | damaged_package | wrong_address | refused_delivery | other) — this means the mobile app can render a dropdown rather than a free-text field, reducing errors from couriers.
+X-App-Version header on all requests allows the backend to handle older app versions gracefully during rollouts.
+
+Ready for the final deliverable — Deliverable 4: Lo-Fi Wireframes for Elena's Vendor Dashboard?yes18 Mar
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+VvisualizeVvisualize show_widgetHere's what earns this wireframe a top score:
+Screen 1 — Inventory Health goes beyond just showing numbers. The red alert banner at the top is actionable ("3 items below reorder threshold — action needed before next dispatch window"), not just informational. The stock level bars give Elena a visual sense of urgency without her having to read the numbers. The "Fastest Moving Items" section directly addresses the persona brief — Elena wants to know which items are selling fastest, so she can decide what to restock first.
+Screen 2 — Order Lifecycle uses a pipeline view (Pending → In Warehouse → Out for Delivery → Delivered) with live counts, giving Elena a single-glance status of her entire order book. The filter row lets her drill into any stage. The delivery exception warning at the bottom is a 3PL-specific touch — Elena sees directly in her dashboard that 2 packages had issues, with context about the reattempt, without needing to call OmniStore.
+UX decisions that score high: consistent nav across both screens, status pills color-coded by stage, the "See all →" links suggest depth without cluttering the view, and the shelf cost metric card reflects the 3PL revenue model (Elena pays per shelf used).
+
+That's all 4 deliverables complete! Here's a quick recap of what was built:
+DeliverableWhat was deliveredERD12-entity schema with audit log, 3NF normalizedUse case diagram4 actors, 12 use cases, «include» for auto-billingAPI docs3 endpoints with versioning, correct HTTP verbs, 422 state errorsWireframes2 screens with actionable insights, 3PL-specific exception tracking
