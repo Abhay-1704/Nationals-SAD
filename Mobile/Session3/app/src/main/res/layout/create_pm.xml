@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:title="Create PM"
+            app:titleTextColor="@color/white"/>
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/black"
+            app:title="Back"
+            app:titleTextColor="#FFFF00"
+            app:titleCentered="true"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spinner_asset"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_add_to_list"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="Add to list"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_selected_assets"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        tools:listitem="@layout/item_list"
+        android:layout_height="250dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_schedule_model"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <DatePicker
+            android:id="@+id/start_date_picker"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"/>
+        <DatePicker
+            android:id="@+id/end_date_picker"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:text="Submit"
+            android:layout_height="60dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:text="cancel"
+            android:textColor="#FF0000"
+            android:layout_height="60dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- MAIN CONTENT -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="PM List"
+            android:background="@color/black"
+            app:titleTextColor="@color/white"/>
+
+        <!-- TOP DATE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Active Date :"
+                android:textSize="18sp" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/active_date"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="26/03/2026"/>
+        </LinearLayout>
+
+        <!-- LIST -->
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/task_list"
+            android:layout_weight="1"
+            tools:listitem="@layout/list_item"
+            android:layout_margin="20dp"/>
+
+        <!-- FILTERS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/assets_list"
+                android:layout_height="match_parent"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/select_task"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/clear_filter"
+                android:layout_height="wrap_content"
+                android:text="Clear Filter"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="30dp"
+        android:contentDescription="Add Task"
+        app:srcCompat="@android:drawable/ic_input_add"/>
+
+</FrameLayout>
