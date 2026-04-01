@@ -1,0 +1,14 @@
+F:\APIWinforms\MyApp\MyApp\bin\Debug\net10.0\MyApp.exe
+F:\APIWinforms\MyApp\MyApp\bin\Debug\net10.0\MyApp.deps.json
+F:\APIWinforms\MyApp\MyApp\bin\Debug\net10.0\MyApp.runtimeconfig.json
+F:\APIWinforms\MyApp\MyApp\bin\Debug\net10.0\MyApp.dll
+F:\APIWinforms\MyApp\MyApp\bin\Debug\net10.0\MyApp.pdb
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\MyApp.AssemblyInfoInputs.cache
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\MyApp.AssemblyInfo.cs
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\MyApp.csproj.CoreCompileInputs.cache
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\MyApp.dll
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\refint\MyApp.dll
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\MyApp.pdb
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\MyApp.genruntimeconfig.cache
+F:\APIWinforms\MyApp\MyApp\obj\Debug\net10.0\ref\MyApp.dll

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\APIWinforms\\MyApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1457F4A-D3E0-4644-86B0-58180ACD75A0}|MyApp.Tests\\MyApp.Tests.csproj|f:\\apiwinforms\\myapp\\myapp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1457F4A-D3E0-4644-86B0-58180ACD75A0}|MyApp.Tests\\MyApp.Tests.csproj|solutionrelative:myapp.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042FE25C-1F9F-4DC9-9876-F2401D2FFB74}|MyApp\\MyApp.csproj|f:\\apiwinforms\\myapp\\myapp\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042FE25C-1F9F-4DC9-9876-F2401D2FFB74}|MyApp\\MyApp.csproj|solutionrelative:myapp\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{042FE25C-1F9F-4DC9-9876-F2401D2FFB74}|MyApp\\MyApp.csproj|f:\\apiwinforms\\myapp\\myapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{042FE25C-1F9F-4DC9-9876-F2401D2FFB74}|MyApp\\MyApp.csproj|solutionrelative:myapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "F:\\APIWinforms\\MyApp\\MyApp.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "MyApp.Tests\\UnitTest1.cs",
+              "ToolTip": "F:\\APIWinforms\\MyApp\\MyApp.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "MyApp.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T01:56:05.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "F:\\APIWinforms\\MyApp\\MyApp\\Reservation.cs",
+              "RelativeDocumentMoniker": "MyApp\\Reservation.cs",
+              "ToolTip": "F:\\APIWinforms\\MyApp\\MyApp\\Reservation.cs",
+              "RelativeToolTip": "MyApp\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T01:54:58.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\APIWinforms\\MyApp\\MyApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyApp\\Program.cs",
+              "ToolTip": "F:\\APIWinforms\\MyApp\\MyApp\\Program.cs",
+              "RelativeToolTip": "MyApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T01:54:06.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
